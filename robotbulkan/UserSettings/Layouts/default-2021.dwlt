@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1280
     height: 637.3334
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 91
+  controlID: 50
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 92
+  controlID: 51
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 93
+  controlID: 40
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -329,9 +329,9 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 10.9999695}
-    m_SelectedIDs: b05f0000
-    m_LastClickedID: 24496
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: bc5f0000
+    m_LastClickedID: 24508
     m_ExpandedIDs: 000000009c5f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -488,9 +488,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e25f0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 9af9ffffd4f9ffff0efaffff2cfbffff
+      m_ExpandedIDs: c4f5fffffef5ffff38f6ffff7af6ffffb4f6fffff0f6ffff2af7ffff64f7ffff9ef7ffffd8f7ffff16f8ffff58f8ffffa2f8ffffdef8ffff52f9ffff9cf9ffffd6f9ffff10faffff2cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -794,9 +794,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 28.762413, y: 12.939771, z: -0.3064234}
+    m_Target: {x: 6.50006, y: 2.026524, z: -0.09465115}
     speed: 2
-    m_Value: {x: 28.762413, y: 12.939771, z: -0.3064234}
+    m_Value: {x: 7.2575192, y: 1.9157282, z: -0.10009501}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -847,9 +847,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 32.73045
+    m_Target: 11.553175
     speed: 2
-    m_Value: 32.73045
+    m_Value: 12.097566
   m_Ortho:
     m_Target: 1
     speed: 2
