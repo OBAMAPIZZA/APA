@@ -6,9 +6,11 @@ public class PlayerMovement : MonoBehaviour
     public float jumpForce = 5f;
     private bool isJumping = false;
     private Rigidbody2D rb;
+    SpriteRenderer SR;
 
     private void Start()
     {
+        SR = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -22,6 +24,9 @@ public class PlayerMovement : MonoBehaviour
             rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
             isJumping = true;
         }
+
+        if (moveX == 1) SR.flipX = false;
+        if (moveX == -1) SR.flipX = true;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
